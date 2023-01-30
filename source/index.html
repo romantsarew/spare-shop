@@ -14,21 +14,88 @@
 <body class="page__body">
   <header class="header">
     <div class="header__container container">
-      <nav class="header-nav">
-        <ul class="header-nav__list">
-          <li class="header-nav__item">
-            <a class="heaeder-nav__link" href="#">
+      <nav class="top-nav">
+        <ul class="top-nav__list">
+          <li class="top-nav__item">
+            <a class="top-nav__link" href="#">
               Магазины
             </a>
           </li>
-          <li class="header-nav__item">
-            <a class="heaeder-nav__link" href="#">
+          <li class="top-nav__item">
+            <a class="top-nav__link" href="#">
               Акции
             </a>
           </li>
-          <li class="header-nav__item">
-            <a class="heaeder-nav__link" href="#">
+          <li class="top-nav__item">
+            <a class="top-nav__link" href="#">
               Доставка и оплата
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <a class="logo" href="#">
+        <img class="logo__image" src="./img/common/logo-desktop.svg" width="102" height="52" alt="логотип интернет магазина автозапчастей.
+        ">
+      </a>
+      <p class="header__adress">Санкт-Петербург, ул
+        Большая Конюшенная, д 19</p>
+      <div class="personal">
+        <ul class="personal__list">
+          <li class="personal__item">
+            <button class="personal__button personal__button-favorite">
+            </button>
+          </li>
+          <li class="personal__item">
+            <button class="personal__button personal__button-user">
+            </button>
+          </li>
+          <li class="personal__item">
+            <button class="personal__button personal__button-basket">
+              <span class="Personal__button-basket-count">1</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <nav class="bottom-nav">
+        <ul class="bottom-nav__list">
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Каталог запчастей
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Каталог ТО
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="catalog.html">
+              Шины
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Диски
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Аккумуляторы
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Автомасла
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Автолампы
+            </a>
+          </li>
+          <li class="bottom-nav__item">
+            <a class="bottom-nav__link" href="#">
+              Аксессуары
             </a>
           </li>
         </ul>
@@ -37,6 +104,124 @@
   </header>
 
   <main class="main">
+    <h1 class="main__title">Интернет-магазин автозапчастей</h1>
+    <section class="promo">
+      <div class="promo__container container">
+        <div class="promo__slider">
+          <ul class="promo__slider-list">
+            <li class="promo__slider-item">
+              <img class="promo__slider-image" src="./img/index/slide1-desk.jpg" width="870" height="397"
+                alt="запчасти на все виды автомобилей.">
+            </li>
+          </ul>
+        </div>
+        <ol class="promo__pagination">
+          <li class="promo__pagination-item">
+            <button class="promo__pagination-button promo__pagination-button-current" type="button"
+              value="показать первый слайд">
+              <span class="promo__pagination-text">1 фото</span>
+            </button>
+          </li>
+          <li class="promo__pagination-item">
+            <button class="promo__pagination-button" type="button" value="показать первый слайд">
+              <span class="promo__pagination-text">2 фото</span>
+            </button>
+          </li>
+          <li class="promo__pagination-item">
+            <button class="promo__pagination-button" type="button" value="показать первый слайд">
+              <span class="promo__pagination-text">3 фото</span>
+            </button>
+          </li>
+          <li class="promo__pagination-item">
+            <button class="promo__pagination-button" type="button" value="показать первый слайд">
+              <span class="promo__pagination-text">4 фото</span>
+            </button>
+          </li>
+          <li class="promo__pagination-item">
+            <button class="promo__pagination-button" type="button" value="показать первый слайд">
+              <span class="promo__pagination-text">5 фото</span>
+            </button>
+          </li>
+          <li class="promo__pagination-item">
+            <button class="promo__pagination-button" type="button" value="показать первый слайд">
+              <span class="promo__pagination-text">6 фото</span>
+            </button>
+          </li>
+        </ol>
+        <div class="promo__controls">
+          <button class="promo__controls-button promo__controls-button-prev" type="button"
+            value="переключить предыдущий слайд">
+            <span class="promo__pagination-text">предыдущий слайд</span>
+          </button>
+          <button class="promo__controls-button promo__controls-button-next" type="button"
+            value="переключить предыдущий слайд">
+            <span class="promo__pagination-text">следующий слайд</span>
+          </button>
+        </div>
+        <div class="promotion">
+          <div class="promotion__item">
+            <img class="promotion__image" src="./img/index/promotion-bulb.jpg" width="150" height="187"
+              alt="лампочка Ильича.">
+            <span class="promotion__label">акция</span>
+            <span class="promotion__new-price">200 ₽</span>
+            <span class="promotion__old-price">500 ₽</span>
+            <p class="promotion__description">
+              Лампочка mini...
+            </p>
+          </div>
+          <div class="promotion__countdown">
+            <dl class="promotion__countdown-text">До конца акции осталось:
+              <dt class="promotion__parametr">часов</dt>
+              <dd class="promotion__value">00 :</dd>
+              <dt class="promotion__parametr">минут</dt>
+              <dd class="promotion__value">20 :</dd>
+              <dt class="promotion__parametr">секунд</dt>
+              <dd class="promotion__value">00</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="search">
+      <div class="search__container container">
+        <form class="search__form" action="https://echo.htmlacademy.ru" method="post">
+          <h2 class="search__title">Поиск по сайту</h2>
+          <fieldset class="search__field">
+            <legend class="search__field-title"></legend>
+            <ul class="search__list">
+              <li class="search__item">
+                <label class="search__radio radio" for="Vin">
+                  <input class="search__input" type="radio" name="selection" value="Vin" id="searching">
+                  <span class="radio__name">Поиск по Vin</span>
+                </label>
+              </li>
+              <li class="search__item">
+                <label class="search__radio radio" for="brand">
+                  <input class="search__input" type="radio" name="selection" value="brand" id="brand" checked>
+                  <span class="radio__name">Поиск по марке</span>
+                </label>
+              </li>
+              <li class="search__item">
+                <label class="search__radio radio" for="name">
+                  <input class="search__input" type="radio" name="selection" value="name" id="name">
+                  <span class="radio__name">Поиск по названию товара</span>
+                </label>
+              </li>
+              <li class="search__item">
+                <label class="search__radio radio" for="article">
+                  <input class="search__input" type="radio" name="selection" value="article" id="article">
+                  <span class="radio__name">Поиск по артикулу</span>
+                </label>
+              </li>
+            </ul>
+            <label class="search__main" for="main">
+              <input class="search__main-input" type="search" name="selection" id="main" placeholder="Введите марку автомобиля">
+              <button class="search__main-button" type="submit" value="кнопка поиска на сайте.">Искать</button>
+            </label>
+          </fieldset>
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">
